@@ -1,0 +1,260 @@
+*{
+	-webkit-user-select:none;
+	-ms-touch-action:none;
+	-moz-user-select: none;
+}
+body{
+	margin:8px;
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+div#page_loading{
+	width:100px;
+}
+.choice{
+	padding:3px;
+}
+.thumnail{
+	padding:5px;
+	width:120px;
+	vertical-align:middle;
+}
+.thumnaildefault{
+	padding:5px;
+	vertical-align:middle;
+}
+.page{
+	background-color:#F8F8F8;
+	border:outset 1px #DDD;
+	padding:0px;
+	position:relative;
+	-webkit-border-radius: 3px;
+	box-shadow: 4px 4px 4px rgba(0,0,0,0.1);
+}
+#buttons{
+	position:absolute;
+	bottom:5px;
+}
+#display_prev_quiz, #display_next_quiz{
+	width:60px;
+	height:60px;
+	font-size:22px;
+}
+#check_answer_button, #check_answer_next_button, #show_result,#not_disp_answer_next_button,#not_disp_answer_mark_button{
+	width:90px;
+	height:60px;
+	font-size:20px;
+	margin-left:20px;
+}
+img{
+	border: none;
+}
+label{
+	display:block;
+	padding:3px;
+}
+label:hover {
+	background-color: #e5ecff;
+}
+table.qtable{
+	margin:10px 10px 1px 10px;
+	border-collapse: collapse;	border-spacing: 0;
+}
+table.qtable th, table.qtable td{
+	padding: 3px 5px;
+	color: #1D5C79;
+}
+table.qtable th{
+	border-bottom: 2px solid #1D5C79;
+	white-space:nowrap;
+}
+table.qtable td{
+	border-bottom: 1px solid #DDD;
+	text-align:center;
+	white-space:nowrap;
+}
+.list{
+	position:absolute;
+	top:5px;
+	right:5px;
+}
+.list:hover{
+	position:absolute;
+	top:6px;
+}
+#page_list td.button{
+	width:50px;
+}
+#instant_response_background{
+	position:absolute;
+	background-color:#FAFAFF;
+	padding:4px;
+	opacity:0.7;
+	-webkit-border-radius: 3px;
+}
+#instant_response_container{
+	border:outset 1px #CCC;
+	position:absolute;
+	padding:4px;
+	-webkit-border-radius: 3px;
+}
+#intro_background{
+	position:absolute;
+	background-color:#FAFAFF;
+	padding:5px;
+	opacity:0.9;
+	-webkit-border-radius: 3px;
+}
+#intro{
+	border:inset 1px #CCC;
+	position:absolute;
+	padding:5px;
+	-webkit-border-radius: 3px;
+
+}
+input[type=text]{
+	-webkit-user-select:text;
+	margin-left:8px;
+}
+#start_quiz_button{
+	position:absolute;
+	display:none;
+}
+#start_quiz_button_not_answerd{
+	position:absolute;
+}
+#start_quiz_button_review{
+	position:absolute;
+}
+#completion_rate_wrapper{
+	position:absolute;
+	text-align:center;
+}
+#page_list td.student_response div, #page_result td.student_response div{
+	overflow-x:auto;
+}
+button#restart_button{
+	position:absolute;
+}
+div#question_count_wrapper{
+	width:45px;
+	margin:5px;
+}
+.timer_wrapper{
+	font-size:smaller;
+	margin-top:5px;
+}
+#input{
+	font-size:larger;
+	-webkit-border-radius: 3px;
+}
+
+
+object.flash_with_controls{
+	vertical-align:middle;
+	
+}
+#answer_mark_correct, #answer_mark_incorrect{
+	z-index:10;
+	position:absolute;
+	display:none;
+}
+
+.drop-choice-key{
+	border:2px ridge lightGrey;
+	background-color:#E6E6E6;
+	color:#222;
+	min-height: 25px;
+	margin-bottom:2px;
+}
+.drop-choice{
+	border:2px solid transparent;
+}
+.drop-group .drop-choice{
+	margin:-2px;
+}
+
+.drag-choice{
+	border:2px ridge lightGrey;
+	background-color:#E6E6E6;
+	color:#555;
+	min-height: 25px;
+	list-style:none;
+	list-style-position: outside;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+}
+
+.drop-choice-wordbank .drag-choice-wordbank{
+	border:0px;
+	background-color:#E6E6E6;
+	color:#555;
+	list-style:none;
+	list-style-position: outside;
+}
+
+.ui-state-disabled,
+.ui-widget-content,
+.ui-state-disabled,
+.ui-widget-header .ui-state-disabled{
+	opacity: 1;
+	filter: Alpha(Opacity=100);
+
+}
+
+.drop-choice-list{
+	display : inline-block;
+	margin-left:2px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.drop-choice-wordbank{
+	display : inline-block;
+	border:2px inset lightGrey;
+	background-color:white;
+	text-align:center;
+	color:#222;
+	min-width: 20px;
+	min-height:25px;
+	margin-bottom:5px;
+}
+
+.drag-choice-wordbank{
+	display : inline-block;
+	border:2px solid lightGrey;
+	background-color:#E6E6E6;
+	color:#555;
+	text-align:center;
+	min-width: 10px;
+	min-height:25px;
+}
+
+.drop-choice-wordbank .drag-choice-wordbank{
+	background-color:white;
+}
+.list-hover,
+.drop-choice-wordbank .list-hover,
+.drop-choice .list-hover{
+	background-color:#ACE;
+}
+
+.drop-hover{
+	border:2px solid #FCEFA1;
+	background-color:#FBF9EE;
+	color:#363636;
+}
+.match-connection{
+	position:relative;
+	top:12.5px;
+	border-bottom:4px ridge lightGrey;
+	width:15px;
+	height:0px;
+}
+#instant_response_disp,
+#instant_response_disp_none{
+	position:absolute;
+	top:5px;
+	right:5px;
+	width:15px;
+	height:15px;
+	z-index:100;
+}

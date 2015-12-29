@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="css/jquery-ui-1.9.0.custom.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style_basic_blue.css" id="css_for_ie6"/>
+	<link rel="stylesheet" type="text/css" media="screen" href="css/jquery.lightbox-0.5.css"/>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.countdown.pack.js"></script>
+	<script type="text/javascript" src="js/scrollbarTable-0.1.min.js"></script>
+	<script type="text/javascript" src="js/player.js"></script>
+	<script type="text/javascript" src="config.js"></script>
+	<script src="js/jquery-ui-1.9.2.custom.min.js"></script>
+	<script src="js/jquery.ui.touch-punch-custom.js"></script>
+	<meta id="viewport" name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+	<title>Loading...</title>
+</head>
+<body>
+<object id="myFlash" type="application/x-shockwave-flash" data="player_mp3_js.swf" width="1" height="1">
+	<param name="movie" value="player_mp3_js.swf" />
+	<param name="AllowScriptAccess" value="always" />
+	<param name="FlashVars" value="listener=myListener&amp;interval=500" />
+</object>
+<div class="page" id="page_loading">
+Loading...
+</div>
+<div class="page" id="page_intro" style="display:none">
+	<div id="intro_background" class="size_adjust"></div>
+	<div id="intro" class="size_adjust"></div>
+	<div id="completion_rate_wrapper" class="size_adjust">攻略率:<span id="completion_rate"></span>%</div>
+	<button id="start_quiz_button" class="size_adjust" onclick="start_quiz()">開始</button>
+	<button id="start_quiz_button_not_answerd" class="size_adjust" onclick="start_quiz('not_answerd')">完全攻略</button>
+	<button id="start_quiz_button_review" class="size_adjust" onclick="start_quiz('review')">徹底復習</button>
+</div>
+<div class="page" id="page_quiz" style="display:none;">
+	<div class="list" style="background-image:url(images/list.png);width:28px;height:28px;" onclick="show_list()"></div>
+	<div id="buttons">
+		<button onclick="display_prev_quiz()" style="float:left" id="display_prev_quiz">←</button>
+		<button onclick="display_next_quiz()" style="float:left;margin-left:5px;" id="display_next_quiz">→</button>
+		<button onclick="check_answer()" id="check_answer_button" style="float:right">提出</button>
+		<button onclick="display_next_quiz()" id="check_answer_next_button" style="display:none;float:right">次へ</button>
+		<button onclick="mark_quiz()" id="not_disp_answer_mark_button" style="float:right">採点</button>
+		<button onclick="check_choiced_next_quiz()" id="not_disp_answer_next_button" style="float:right">次へ</button>
+		<button onclick="show_result()" id="show_result" style="display:none;float:right;">結果</button>
+		<button onclick="show_result()" id="abort_quiz" style="float:right;display:none">終了</button>
+	</div>
+	<div id="question_header" class="size_adjust">
+		<div id="question_count_wrapper" class="inset"><span id="position"></span>/<span id="question_count"></span></div>
+		<div class="timer_wrapper inset"><span class="timer">timer</span></div>
+	</div>
+	<div id="question_statement" > <span id="question" style="">Question</span></div>
+	<div id="choices" style="position:absolute">
+		<div id="choice">
+			<label onclick="" for="[[choice_id]]" style="">
+			<table><tr>
+				<td><input class="choice_radio" type="radio" value="[[choice_key]]" id="[[choice_id]]" name="question"/></td>
+				<td>[[choice]]</td>
+			</tr></table>
+			</label>
+		</div>
+		<div id="multi_choice">
+			<label onclick="" for="[[choice_id]]" style="">
+			<table><tr>
+				<td><input class="choice_checkbox" type="checkbox" value="[[choice_key]]" id="[[choice_id]]" name="question"/></td>
+				<td>[[choice]]</td>
+			</tr></table>
+			</label>
+		</div>
+		<div id="input">
+			<input class="input size_adjust" type="text" style=""/>
+		</div>
+		<div id="textarea">
+			<textarea class="input size_adjust" style=""/></textarea>
+		</div>
+		<div id="fill_in_multi">
+			<table>
+			<tr><td><div class="pos0"></div></td><td><input class="input size_adjust pos0" type="text" style=""/></td></tr>
+			<tr><td><div class="pos1"></div></td><td><input class="input size_adjust pos1" type="text" style=""/></td></tr>
+			<tr><td><div class="pos2"></div></td><td><input class="input size_adjust pos2" type="text" style=""/></td></tr>
+			<tr><td><div class="pos3"></div></td><td><input class="input size_adjust pos3" type="text" style=""/></td></tr>
+			<tr><td><div class="pos4"></div></td><td><input class="input size_adjust pos4" type="text" style=""/></td></tr>
+			<tr><td><div class="pos5"></div></td><td><input class="input size_adjust pos5" type="text" style=""/></td></tr>
+			<tr><td><div class="pos6"></div></td><td><input class="input size_adjust pos6" type="text" style=""/></td></tr>
+			<tr><td><div class="pos7"></div></td><td><input class="input size_adjust pos7" type="text" style=""/></td></tr>
+			</table>
+		</div>
+		<div id="button">
+			<button class="button" id="[[choice_id]]" onclick="button_click('[[choice_key_js_escaped]]')" style="">[[choice]]</button>
+		</div>
+		<div id="true_false">
+			<input 
+				type="image" 
+				src="images/o1.png"
+				width="100"
+				height="100"
+				alt=""
+				style="margin-left:10px"
+				onmouseover="this.src='images/o2.png'"
+				onmouseout="this.src='images/o1.png'"
+				onmousedown="this.src='images/o3.png'"
+				onmouseup="this.src='images/o1.png'"
+				onclick="button_click('true')"/>
+			<input 
+				type="image" 
+				src="images/x1.png"
+				width="100"
+				height="100"
+				alt=""
+				style="margin-left:10px"
+				onmouseover="this.src='images/x2.png'"
+				onmouseout="this.src='images/x1.png'"
+				onmousedown="this.src='images/x3.png'"
+				onmouseup="this.src='images/x1.png'"
+				onclick="button_click('false')"/>
+		</div>
+		<div id="sort">
+			<div class="drop-choice"><li class="drag-choice sort-li-width" style="">[[choice]]<input type="hidden" class="drag-value" value="[[choice_key]]" /></li></div>
+		</div>
+		<div id="match">
+			<div class="drop-group">
+				<div class="drop-choice-key match-li-width" style="float:left;">[[match_key]]</div>
+				<div class="match-connection" style="float:left;"></div>
+				<div class="drop-choice" style="float:left;" id="[[choice_id]]">
+					<li class="drag-choice match-li-width" style="">[[choice]]<input type="hidden" class="drag-value" value="[[choice_key]]" /></li>
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+		<div id="wordbank">
+			<span class="drop-choice-list">
+				<span class="drag-choice-wordbank" style="">[[choice]]<input type="hidden" class="drag-value" value="[[choice_key]]" /><span class="drop-index" style="display:none;">[[choice_idx]]</span></span>
+			</span>
+		</div>
+	</div>
+	<div id="instant_response_background" class="size_adjust" style="display:none"></div>
+	<div id="instant_response_container" class="size_adjust" style="display:none;">
+		<div id="instant_response_disp" style="background-image:url(images/response_show.png);" onclick="response_disp(true);"></div>
+		<div id="instant_response_disp_none" style="background-image:url(images/response_hide.png);" onclick="response_disp(false);"></div>
+		<div id="instant_result_wrapper" style="display:none">判定:<span id="instant_result_msg"></span></div>
+		<div id="instant_answer_wrapper" style="display:none">正答:<span id="instant_answer_msg"></span></div>
+		<div id="instant_feedback_wrapper" style="display:none"><span id="instant_feedback_msg"></span></div>
+	</div>
+	<div id="answer_mark">
+		<div id="answer_mark_correct" style="background-image:url(images/answer_mark_correct.png);width:206px;height:206px;"></div>
+		<div id="answer_mark_incorrect" style="background-image:url(images/answer_mark_mistake.png);width:206px;height:206px;"></div>
+	</div>
+	<div class="speaker" style="width:0;height:0;">
+		<audio id="correct_sound" src="get.mp3" preload="auto"/>
+	</div>
+	<div class="speaker" style="width:0;height:0;">
+		<audio id="incorrect_sound" src="koke.mp3" preload="auto"/>
+	</div>
+	<div class="speaker" style="width:0;height:0;">
+		<audio id="dragged_sound" src="move.mp3" preload="auto"/>
+	</div>
+</div>
+
+<div class="page" id="page_list" style="display:none">
+<div id="question_header" class="size_adjust"><div style="float:right" class="timer_wrapper inset"><span class="timer">timer</span></div></div>
+<table class="qtable size_adjust" id="result_table1">
+<thead>
+<tr>
+	<th class="no" style="">No</th>
+	<th class="student_response" style="">あなたの回答</th>
+	<th class="result" style="">判定</th>
+	<th class="button"></th>
+</tr>
+</thead>
+<tr class="result_detail">
+	<td class="no" style=""/>
+	<td class="student_response" style=""/>
+	<td class="result" style=""/>
+	<td class="button"><input type="button" value="移動" class="list_to_quiz"/></td>
+</tr>
+</div>
+</table>
+	<div class="list" style="background-image:url(images/list.png);width:28px;height:28px;" onclick="hide_list()"></div>
+</div>
+<div class="page" id="page_result" style="display:none">
+<table class="qtable size_adjust" id="summary_table">
+<thead>
+<tr style="">
+	<th>設問数</th>
+	<th>合格点</th>
+	<th>正答数</th>
+	<th>誤答数</th>
+	<th>得点</th>
+	<th>判定</th>
+</tr>
+<tr style="">
+	<td><span id="total_count"></span></td>
+	<td><span id="passing_score"></span></td>
+	<td><span id="correct_count"></span></td>
+	<td><span id="incorrect_count"></span></td>
+	<td><span id="score"></span></td>
+	<td><span id="result"></span></td>
+</tr>
+<table class="qtable size_adjust" id="result_table2">
+<thead>
+<tr>
+	<th class="no" style="">No</th>
+	<th class="student_response" style="">あなたの回答</th>
+	<th class="result" style="">判定</th>
+	<th class="button"></th>
+</tr>
+</thead>
+<tr class="result_detail">
+	<td class="no" style=""/>
+	<td class="student_response" style=""/>
+	<td class="result" style=""/>
+	<td class="button"></td>
+</tr>
+</table>
+<button onclick="restart()" id="restart_button" class="size_adjust">　もう一度　</button>
+</table>
+</div>
+</body>
+</html>

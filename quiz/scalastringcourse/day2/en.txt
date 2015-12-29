@@ -1,0 +1,34 @@
+completion_rate	Complete Rate:
+start_quiz		Start
+not_answered		Complete Mode
+review		Review Mode
+display_prev_quiz	&lt;
+display_next_quiz	&gt;
+submit		Submit
+next_question		Next
+show_result		Result
+abort_quiz		Abort
+instant_result	Result: 
+instant_answer	Answer: 
+student_response	Your Response:
+result		Result
+list_to_quiz		Go
+total_count		Count
+passing_score		Passing score
+correct_count		Correct
+incorrect_count	Incorrect
+score		Score
+result		Result
+restart		Retry
+messages_passed	Passed!
+messages_failed	Failed
+messages_correct	Correct!
+messages_incorrect	Incorrect
+messages_neutral	Not answerd
+messages_not_selected	Please select your answer
+messages_not_filled	Please input your answer
+messages_intro	Click Start button to begin.
+msssages_answer_true	True
+messages_answer_false	False
+messages_not_sorted	Please do the sorting
+finish_quiz	mark

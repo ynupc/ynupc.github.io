@@ -1,0 +1,32 @@
+completion_rate	Evaluación:
+start_quiz		Inicio
+not_answered		El modo de completo
+review		El modo de revisión
+display_prev_quiz	&lt;
+display_next_quiz	&gt;
+submit		Entrar
+next_question		Siguiente
+show_result		Resultado
+abort_quiz		Finalizar
+instant_result	Resultado: 
+instant_answer	Respuesta: 
+student_response	Su respuesta:
+result		Resultado
+list_to_quiz		Proceda
+total_count		Total
+passing_score		La nota de aprobación
+correct_count		Correcto
+incorrect_count	Incorrecto
+score		Nota
+result		Resultado
+restart		Trate de nuevo
+messages_passed	Aprobado!
+messages_failed	Desaprobado
+messages_correct	Correcto!
+messages_incorrect	Incorrecto
+messages_neutral	Sin respuesta
+messages_not_selected	Por favor, seleccione su respuesta
+messages_not_filled	Escriba su respuesta
+messages_intro	Haga clic en el botón de inicio.
+msssages_answer_true	Verdadero
+messages_answer_false	Falso
