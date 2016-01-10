@@ -2,10 +2,10 @@
 Scalaの文字列処理についてDay 1からDay 7までの１週間で学習します。本教材を使った学習方法について説明します。  
 
 1. まずはDayごとにリポジトリのsrc/testの下にあるサンプルコードを実行して挙動を確認してください。
-2. 次に、Indexにある各Dayの資料を読んで理解を深めてください。Dayごとに短くまとめた動画と詳細に書いた読み物が用意されています。資料を読んだ後はQuizに挑戦してください。Day 1を除く各Dayごとに10問あります。満点で合格です。何度でも挑戦可能です。
-3. 全DayのQuizに合格したらFinal Quizに挑戦してください。Final Quizは100問あります。満点で合格です。こちらも何度でも挑戦可能です。ここまでで１週間分の内容です。
-4. 最後に、学習したことの応用としてテキストからの情報抽出のTaskを用意します。  
-Taskでは、トレーニングデータ、テストデータ、ベースラインシステムと自動評価器を提供します。  
+2. 次に、目次にある各Dayの資料を読んで理解を深めてください。Dayごとに短くまとめた動画と詳細に書いた読み物が用意されています。資料を読んだ後はQuizに挑戦してください。Day 1を除く各Dayごとに10問あります。満点で合格です。何度でも挑戦可能です。
+3. 全Dayのクイズに合格したら最終クイズに挑戦してください。最終クイズは100問あります。満点で合格です。こちらも何度でも挑戦可能です。ここまでで１週間分の内容です。
+4. 最後に、学習したことの応用としてテキストからの情報抽出のタスクを用意します。  
+タスクでは、トレーニングデータ、テストデータ、ベースラインシステムと自動評価器を提供します。  
 是非、ベースラインシステムを上回る評価値を目指して挑戦してみてください。  
 
 <h2>目次</h2>
@@ -16,7 +16,7 @@ Taskでは、トレーニングデータ、テストデータ、ベースライ�
 <a href="https://github.com/ynupc/scalastringcourseday5" target="_blank">Day 5 ミュータビリティとフォーマット</a>  
 <a href="https://github.com/ynupc/scalastringcourseday6" target="_blank">Day 6 正規表現と文字列操作</a>  
 <a href="https://github.com/ynupc/scalastringcourseday7" target="_blank">Day 7 文字の正規化とオプション</a>  
-<h2>Quiz</h2>
+<h2>クイズ</h2>
 <a href="http://ynupc.github.io/quiz/scalastringcourse/day2/" target="_blank">Day 2 リテラル・補間子・特殊な文字 (全１０問)</a>  
 <a href="http://ynupc.github.io/quiz/scalastringcourse/day3/" target="_blank">Day 3 Code PointとSurrogate Pair (全１０問)</a>  
 <a href="http://ynupc.github.io/quiz/scalastringcourse/day4/" target="_blank">Day 4 Stringの文字コード変換と数値型との相互変換 (全１０問)</a>  
@@ -24,7 +24,7 @@ Taskでは、トレーニングデータ、テストデータ、ベースライ�
 <a href="http://ynupc.github.io/quiz/scalastringcourse/day6/" target="_blank">Day 6 正規表現と文字列操作 (全１０問)</a>  
 <a href="http://ynupc.github.io/quiz/scalastringcourse/day7/" target="_blank">Day 7 文字の正規化とオプション (全１０問)</a>  
 <a href="http://ynupc.github.io/quiz/scalastringcourse/final/" target="_blank">Final Quiz (全１００問)</a>
-<h2>Task</h2>
+<h2>タスク</h2>
 <h2>Detailed Index</h2>
 <h3>Day 1 概要と環境設定</h3>  
 
