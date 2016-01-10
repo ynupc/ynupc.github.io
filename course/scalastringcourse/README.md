@@ -6,7 +6,7 @@ Scalaの文字列処理についてDay 1からDay 7までの１週間で学習�
 3. 全DayのQuizに合格したらFinal Quizに挑戦してください。Final Quizは100問あります。満点で合格です。こちらも何度でも挑戦可能です。ここまでで１週間分の内容です。
 4. 最後に、学習したことの応用としてテキストからの情報抽出のTaskを用意します。  
 Taskでは、トレーニングデータ、テストデータ、ベースラインシステムと自動評価器を提供します。  
-是非、ベースラインシステムを上回る評価値を目指して挑戦してみてください。
+是非、ベースラインシステムを上回る評価値を目指して挑戦してみてください。  
 <h2>目次</h2>
 <a href="https://github.com/ynupc/scalastringcourseday1" target="_blank">Day 1 概要と環境設定</a>  
 <a href="https://github.com/ynupc/scalastringcourseday2" target="_blank">Day 2 リテラル・補間子・特殊な文字</a>  
