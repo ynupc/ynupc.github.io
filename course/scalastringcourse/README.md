@@ -7,7 +7,6 @@ Scalaの文字列処理についてDay 1からDay 7までの１週間で学習�
 4. 最後に、学習したことの応用としてテキストからの情報抽出のTaskを用意します。  
 Taskでは、トレーニングデータ、テストデータ、ベースラインシステムと自動評価器を提供します。  
 是非、ベースラインシステムを上回る評価値を目指して挑戦してみてください。
-***
 <h2>目次</h2>
 <a href="https://github.com/ynupc/scalastringcourseday1" target="_blank">Day 1 概要と環境設定</a>  
 <a href="https://github.com/ynupc/scalastringcourseday2" target="_blank">Day 2 リテラル・補間子・特殊な文字</a>  
@@ -16,7 +15,6 @@ Taskでは、トレーニングデータ、テストデータ、ベースライ�
 <a href="https://github.com/ynupc/scalastringcourseday5" target="_blank">Day 5 ミュータビリティとフォーマット</a>  
 <a href="https://github.com/ynupc/scalastringcourseday6" target="_blank">Day 6 正規表現と文字列操作</a>  
 <a href="https://github.com/ynupc/scalastringcourseday7" target="_blank">Day 7 文字の正規化とオプション</a>  
-***
 <h2>Quiz</h2>
 <a href="http://ynupc.github.io/quiz/scalastringcourse/day2/" target="_blank">Day 2 リテラル・補間子・特殊な文字 (全１０問)</a>  
 <a href="http://ynupc.github.io/quiz/scalastringcourse/day3/" target="_blank">Day 3 Code PointとSurrogate Pair (全１０問)</a>  
