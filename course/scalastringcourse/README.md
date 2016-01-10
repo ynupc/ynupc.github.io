@@ -7,6 +7,7 @@ Scalaの文字列処理についてDay 1からDay 7までの１週間で学習�
 4. 最後に、学習したことの応用としてテキストからの情報抽出のTaskを用意します。  
 Taskでは、トレーニングデータ、テストデータ、ベースラインシステムと自動評価器を提供します。  
 是非、ベースラインシステムを上回る評価値を目指して挑戦してみてください。  
+
 <h2>目次</h2>
 <a href="https://github.com/ynupc/scalastringcourseday1" target="_blank">Day 1 概要と環境設定</a>  
 <a href="https://github.com/ynupc/scalastringcourseday2" target="_blank">Day 2 リテラル・補間子・特殊な文字</a>  
@@ -25,7 +26,7 @@ Taskでは、トレーニングデータ、テストデータ、ベースライ�
 <a href="http://ynupc.github.io/quiz/scalastringcourse/final/" target="_blank">Final Quiz (全１００問)</a>
 <h2>Task</h2>
 <h2>Detailed Index</h2>
-<h3>Day 1 Overview</h3>  
+<h3>Day 1 概要と環境設定</h3>  
 
 <strong>1.　概要</strong>  
 <strong>2.　環境設定</strong>  
@@ -38,7 +39,7 @@ Taskでは、トレーニングデータ、テストデータ、ベースライ�
 ***
 <h3>Day 2 リテラル・補間子・特殊な文字</h3>  
 
-<strong>1.　リテラルとは</strong>  
+<strong>1.　リテラル</strong>  
 コラム：非ヒープ領域によるOutOfMemoryError  
 コラム：OutOfMemoryErrorやStackOverflowErrorの対処法  
 （１）プログラム上で使用するメモリ容量を減らす  
