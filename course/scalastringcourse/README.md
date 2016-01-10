@@ -23,7 +23,7 @@ Scalaの文字列処理についてDay 1からDay 7までの１週間で学習�
 <a href="http://ynupc.github.io/quiz/scalastringcourse/day5/" target="_blank">Day 5 ミュータビリティとフォーマット (全１０問)</a>  
 <a href="http://ynupc.github.io/quiz/scalastringcourse/day6/" target="_blank">Day 6 正規表現と文字列操作 (全１０問)</a>  
 <a href="http://ynupc.github.io/quiz/scalastringcourse/day7/" target="_blank">Day 7 文字の正規化とオプション (全１０問)</a>  
-<a href="http://ynupc.github.io/quiz/scalastringcourse/final/" target="_blank">Final Quiz (全１００問)</a>
+<a href="http://ynupc.github.io/quiz/scalastringcourse/final/" target="_blank">最終クイズ (全１００問)</a>
 <h2>タスク</h2>
 <h2>詳細な目次</h2>
 <h3>Day 1 概要と環境設定</h3>  
