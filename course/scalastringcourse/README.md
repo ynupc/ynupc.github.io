@@ -18,7 +18,7 @@ Scalaの文字列処理についてDay 1からDay 7までの１週間で学習�
 <a href="https://github.com/ynupc/scalastringcourseday7" target="_blank">Day 7 文字の正規化とオプション</a>  
 <h2>クイズ</h2>
 <a href="http://ynupc.github.io/quiz/scalastringcourse/day2/" target="_blank">Day 2 リテラル・補間子・特殊な文字 (全１０問)</a>  
-<a href="http://ynupc.github.io/quiz/scalastringcourse/day3/" target="_blank">Day 3 Code PointとSurrogate Pair (全１０問)</a>  
+<a href="http://ynupc.github.io/quiz/scalastringcourse/day3/" target="_blank">Day 3 コードポイントとサロゲートペア (全１０問)</a>  
 <a href="http://ynupc.github.io/quiz/scalastringcourse/day4/" target="_blank">Day 4 Stringの文字コード変換と数値型との相互変換 (全１０問)</a>  
 <a href="http://ynupc.github.io/quiz/scalastringcourse/day5/" target="_blank">Day 5 ミュータビリティとフォーマット (全１０問)</a>  
 <a href="http://ynupc.github.io/quiz/scalastringcourse/day6/" target="_blank">Day 6 正規表現と文字列操作 (全１０問)</a>  
