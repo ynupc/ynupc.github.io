@@ -27,7 +27,7 @@ Scalaの文字列処理についてDay 1からDay 7までの１週間で学習�
 <h2>タスク</h2>
 <h2>詳細な目次</h2>
 <h3>Day 1 概要と環境設定</h3>  
-
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/MLC9cFtUzWdtFL" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/ynupc/scala-day1" title="Scalaの文字列処理 Day1 概要と環境設定" target="_blank">Scalaの文字列処理 Day1 概要と環境設定</a> </strong> from <strong><a href="//www.slideshare.net/ynupc" target="_blank">ynupc</a></strong> </div>
 <strong>1.　概要</strong>  
 <strong>2.　環境設定</strong>  
 <strong>2.1　Java, Scala and Scala XML</strong>  
