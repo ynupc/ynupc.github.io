@@ -23,7 +23,26 @@
           <li>全Dayのクイズに合格したら最終クイズに挑戦してください。最終クイズは100問あります。満点で合格です。こちらも何度でも挑戦可能です。ここまでで１週間分の内容です。</li>
           <li>最後に、学習したことの応用としてテキストからの情報抽出のタスクを用意します。タスクでは、トレーニングデータ、テストデータ、ベースラインシステムと自動評価器を提供します。是非、ベースラインシステムを上回る評価値を目指して挑戦してみてください。</li>
         </ol>
-        <img src="../../image/week.png" alt="week.png" width="600"/>
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+          20時間/週
+        </button>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+              </div>
+              <div class="modal-body">
+                <img src="../../image/week.png" alt="week.png" width="600"/>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
         <h2>資料</h2>
         <ul>
           <li><a href="https://github.com/ynupc/scalastringcourseday1" target="_blank">Day 1 概要と環境設定</a></li>
