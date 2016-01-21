@@ -23,17 +23,21 @@
         <div class="well">
           scalastringcourseday2/<br>
 　        ├ doc/<br>
-　        ├ image/<br>
-　        ├ quiz/<br>
+　 　     │  ├ string_course_day2.key /* スライドのKeynoteファイル */<br>
+　 　     │  ├ string_course_day2.pdf /* スライドのPDFファイル(SlideShareアップロード用) */<br>
+　        │　└ ... /* 読み物のMarkdownファイル */<br>
+　        ├ image/... /* スライドの画像ファイル(読み物埋め込み用) */<br>
+　        ├ project/... /* SBTのビルド定義に関するファイル */<br>
+　        ├ quiz/quiz.xml /* クイズの問題と正解 */<br>
 　        ├ src/<br>
 　        │　└ test/<br>
 　        │　　　└ scala/<br>
-　        │　　　　　└ Day2TestSuite.scala<br>
-　        ├ .gitignore<br>
-　        ├ README.md<br>
-　        ├ SUMMARY.md<br>
-　        ├ book.json<br>
-　        └ build.sbt
+　        │　　　　　└ Day2TestSuite.scala /* サンプルコード */<br>
+　        ├ .gitignore /* gitignoreファイル */<br>
+　        ├ README.md /* リポジトリの説明のためのMarkdownファイル */<br>
+　        ├ SUMMARY.md /* リポジトリの目次のためのMarkdownファイル */<br>
+　        ├ book.json /* Gitbookのオプション（バージョンやプラグインなど） */<br>
+　        └ build.sbt /* リポジトリのSBTのビルド定義ファイル */
         </div>
         <ol>
           <li>まずはDayごとにリポジトリのsrc/testの下にあるサンプルコードを実行して挙動を確認してください。</li>
