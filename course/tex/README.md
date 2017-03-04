@@ -241,10 +241,10 @@ f) 公共性の高いプレプリントサーバ，著者個人のホームペ�
  - 言語処理学会会誌「自然言語処理」, 各学会会誌の特集号など
 * 査読付き会議論文（国内会議より国際会議の方が評価される傾向がある。通りにくい会議が評価される。通りにくさの指標として、会議にランキングがよくつけられる。4ページ程度のshort paperと8ページ程度のfull paperがあり、full paperの方が評価される。本会議ではなくWorkshopだと評価が下がる傾向がある。）
  - 国際会議：Rank A+ (ACL, SIGIR, AAAI, WWW, NIPS, etc.), Rank A (EMNLP, COLING, NAACL, EACL, CoNLL, CIKM, etc.), Rank B (PACLIC, PACLING, IJCNLP, WSDM, etc.), Rank C (AIRS, etc.), LREC, EVIA, ICTIR, CHIIR, etc. (ランキングは次のページより http://lipn.univ-paris13.fr/~bennani/CSRank.html )
- - 国内会議：FITで査読あり発表
+ - 国内会議：FITで査読あり発表など
 * その他の論文
- - 国際会議：NTCIR, TREC, CLEF
- - 国内会議：NLP、NL研、インタラクティブ情報アクセスと可視化マイニング研究会、FITで査読なし発表、DEIM
+ - 国際会議：NTCIR, TREC, CLEFなど
+ - 国内会議：NLP、NL研、インタラクティブ情報アクセスと可視化マイニング研究会、FITで査読なし発表、DEIMなど
 * 学位論文
  - 博士論文 
  - 修士論文 
