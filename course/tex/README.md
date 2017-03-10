@@ -90,10 +90,10 @@ https://github.com/ynupc/ynupc.github.io/blob/master/image/quiz.pdf
 
 ### 言語処理学会の原稿執筆環境の構築
 
-**[応用課題1]**　言語処理学会の年次大会の原稿執筆環境を次のOverleafのプロジェクトを参考に作成してください。
+**[応用課題1]**　言語処理学会の年次大会の原稿執筆環境を次のOverleafのプロジェクトを参考に作成してください。  
 https://www.overleaf.com/read/tcqvcxjjczyb
 
-**[応用課題2]**　言語処理学会の会誌「自然言語処理」の論文執筆環境を次のOverleafのプロジェクトを参考に作成してください。
+**[応用課題2]**　言語処理学会の会誌「自然言語処理」の論文執筆環境を次のOverleafのプロジェクトを参考に作成してください。  
 https://www.overleaf.com/read/jvypwjpprnmd
 
 ## どのような論文が良いと評価されるのか？〜査読の観点〜
