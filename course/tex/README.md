@@ -93,8 +93,12 @@ https://github.com/ynupc/ynupc.github.io/blob/master/image/quiz.pdf
 **[応用課題1]**　言語処理学会の年次大会の原稿執筆環境を次のOverleafのプロジェクトを参考に作成してください。  
 https://www.overleaf.com/read/tcqvcxjjczyb
 
+cf. [言語処理学会 - 年次大会](http://www.anlp.jp/guide/nenji.html)
+
 **[応用課題2]**　言語処理学会の会誌「自然言語処理」の論文執筆環境を次のOverleafのプロジェクトを参考に作成してください。  
 https://www.overleaf.com/read/jvypwjpprnmd
+
+cf. [言語処理学会 - 原稿執筆案内](http://anlp.jp/guide/guideline.html)
 
 ## どのような論文が良いと評価されるのか？〜査読の観点〜
 論文を評価することを査読と言います。良い論文を書くためにはどのような論文が良いと評価されるのか、査読の観点（項目、基準など）を知る必要があります。各学会、研究会などで査読の観点が設定され、多くは公開されています。主要な学会の査読の観点について調べてみましょう。言語処理技術の研究分野に関係がある国内の主要な学会については次に抜粋しました。
