@@ -24,6 +24,7 @@ SAVE PROJECT SETTINGSを押して設定を保存。
 <li>\usepackage[ipaex]{pxchfon}をインポートする。</li>
 </ol>
 latexmkrc
+
 ```tex
 $latex = 'platex';  
 $bibtex = 'pbibtex';  
