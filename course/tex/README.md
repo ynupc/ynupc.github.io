@@ -405,7 +405,11 @@ https://www.overleaf.com/read/frzbcvzwwdxj#/28503590/
 
 ## スライド作成・口頭発表・質疑応答のマナー講座
 
-あるといいよね。未定だよ。
+あるといいよね。未定だよ。  
+
+誰が作成したのかが不明ですが、MS PowerPointのtemplateを次に置いておきます。  
+
+[YNU PowerPoint Template](https://github.com/ynupc/ynupc.github.io/blob/master/slide/ynu_slide.potx)
 
 ## ポスター作成・ポスター発表講座
 
