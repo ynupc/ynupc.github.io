@@ -33,7 +33,7 @@ $dvipdf = 'dvipdfmx %O -o %D %S';
 $makeindex = 'mendex %O -o %D %S';  
 $pdf_mode = 3;   
 ```
-Rf. http://doratex.hatenablog.jp/entry/20150903/1441252705
+Rf. [Overleaf で日本語を使用する方法 - TeX Alchemist Online](http://doratex.hatenablog.jp/entry/20150903/1441252705)
 
 なお、はしごたか「髙」のような複雑な漢字を直接TeX内に記述するとうまく表示されないことがあります。\usepackage{otf}をインポートして、次のように記述することではしごたか「髙」を書くことができます。
 ```tex
@@ -98,12 +98,29 @@ https://github.com/ynupc/ynupc.github.io/blob/master/image/quiz.pdf
 **[応用課題1]**　言語処理学会の年次大会の原稿執筆環境を次のOverleafのプロジェクトを参考に作成してください。  
 https://www.overleaf.com/read/tcqvcxjjczyb
 
-cf. [言語処理学会 - 年次大会](http://www.anlp.jp/guide/nenji.html)
+Rf. [言語処理学会 - 年次大会](http://www.anlp.jp/guide/nenji.html)
 
-**[応用課題2]**　言語処理学会の会誌「自然言語処理」の論文執筆環境を次のOverleafのプロジェクトを参考に作成してください。  
+**[応用課題2]**  情報処理学会の[自然言語処理研究会（通称、NL研）](https://nl-ipsj.or.jp/)など研究会の原稿執筆環境を次のOverleafのプロジェクトを参考に作成してください。  
+https://www.overleaf.com/read/kfqpmrxpyxph
+
+注1：Preview FormatをPDFにする必要があります。  
+注2：日本語フォント埋め込みは
+```tex
+\usepackage[ipaex]{pxchfon}
+```
+の代わりに
+```tex
+\AtBeginDvi{\special{pdf:mapfile ptex-ipaex.map}}
+```
+を使用する。
+
+Rf. [Overleaf で pLaTeX 使って日本語PDFをプレビューした話 - 3846masa&#39;s memo](http://3846masa.hatenablog.jp/entry/2016/02/15/003843)  
+Rf. [LaTeXスタイルファイル、MS-Wordテンプレートファイル-情報処理学会](https://www.ipsj.or.jp/journal/submit/style.html)
+
+**[応用課題3]**　言語処理学会の会誌「自然言語処理」の論文執筆環境を次のOverleafのプロジェクトを参考に作成してください。  
 https://www.overleaf.com/read/jvypwjpprnmd
 
-cf. [言語処理学会 - 原稿執筆案内](http://anlp.jp/guide/guideline.html)
+Rf. [言語処理学会 - 原稿執筆案内](http://anlp.jp/guide/guideline.html)
 
 ## どのような論文が良いと評価されるのか？〜査読の観点〜
 論文を評価することを査読と言います。良い論文を書くためにはどのような論文が良いと評価されるのか、査読の観点（項目、基準など）を知る必要があります。各学会、研究会などで査読の観点が設定され、多くは公開されています。主要な学会の査読の観点について調べてみましょう。言語処理技術の研究分野に関係がある国内の主要な学会については次に抜粋しました。
