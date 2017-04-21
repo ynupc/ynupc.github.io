@@ -112,7 +112,7 @@ https://www.overleaf.com/read/kfqpmrxpyxph
 ```tex
 \AtBeginDvi{\special{pdf:mapfile ptex-ipaex.map}}
 ```
-を使用する。
+を使用します。
 
 Rf. [Overleaf で pLaTeX 使って日本語PDFをプレビューした話 - 3846masa&#39;s memo](http://3846masa.hatenablog.jp/entry/2016/02/15/003843)  
 Rf. [LaTeXスタイルファイル、MS-Wordテンプレートファイル-情報処理学会](https://www.ipsj.or.jp/journal/submit/style.html)
