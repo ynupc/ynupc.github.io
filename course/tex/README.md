@@ -91,7 +91,7 @@ https://github.com/ynupc/ynupc.github.io/blob/master/image/quiz.pdf
 
 ### プロジェクトの共有
 
-**[課題6]** 作成したプロジェクトのRead & Edit Linkをメーリングリストに流してラボ全体で共有してください。
+**[課題6]** 作成したプロジェクトのRead & Edit Linkを研究室内Slackに流してラボ全体で共有してください。
 
 ### 言語処理学会の原稿執筆環境の構築
 
